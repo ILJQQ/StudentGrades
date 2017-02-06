@@ -1,0 +1,33 @@
+.container, input, p{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+input:focus{
+    border:1px #38f solid;
+}
+
+.container{
+    width: 300px;
+    hight: 200px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left: -150px;
+    margin-top: -150px;
+    background-color: #ccc;
+    opacity: 0.5;
+    text-align: center;
+}
+
+h2{
+    color: #35b558;
+    text-align: center;
+}
+
+.container input{
+    width: 200px;
+    margin: 10px auto;
+    display: block;
+}
